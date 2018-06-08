@@ -22,15 +22,15 @@
   "homepage": "https://github.com/devleague/js-functions",
   "devDependencies": {
     "chai": "^3.5.0",
-    "karma": "^0.13.14",
+    "karma": "^2.0.2",
     "karma-chai": "^0.1.0",
     "karma-cli": "^0.1.1",
     "karma-mocha": "^0.2.0",
-    "karma-phantomjs-launcher": "^0.2.1",
+    "karma-phantomjs-launcher": "^1.0.4",
     "karma-sinon": "^1.0.4",
     "karma-sinon-chai": "^1.1.0",
     "live-server": "^1.1.0",
-    "mocha": "^2.3.3",
+    "mocha": "^5.2.0",
     "phantomjs": "^1.9.18",
     "sinon": "^1.17.2",
     "sinon-chai": "^2.8.0"
