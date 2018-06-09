@@ -120,13 +120,24 @@ function increase(num){
      
  }
  console.log(calculate("add", 4, 7));
+ 
 
 /**
  * Returns true if `a` is greater than `b`.
  * @param {number} a
  * @param {number} b
  * @return {boolean} `a` is larger than `b`
- */
+*/
+
+function isGreaterThan(a, b){
+    if (a > b){
+        return true;
+    }else{
+        return false;
+    }
+}
+
+console.log(isGreaterThan(5,4));
 
 
 /**
@@ -136,6 +147,7 @@ function increase(num){
  * @return {boolean} `a` is smaller than `b`
  */
 
+ 
 
 /**
  * Returns true if `a` and `b` are equal.
