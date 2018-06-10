@@ -164,6 +164,15 @@ console.log(isGreaterThan(5,4));
  * @return {boolean} the numbers are equal
  */
 
+ function areEqual(a, b){
+     if (a === b){
+         return true;
+     }else{
+         return false;
+     }
+ }
+
+console.log(areEqual(5, 4));
 
 /**
  * Returns the smallest value of two numbers.
@@ -172,6 +181,11 @@ console.log(isGreaterThan(5,4));
  * @return {number} the smallest number
  */
 
+function minimum(x, y){
+    return Math.min(x,y)
+}
+
+console.log(minimum(7, 20));
 
 /**
  * Returns the largest value of two numbers.
