@@ -147,7 +147,15 @@ console.log(isGreaterThan(5,4));
  * @return {boolean} `a` is smaller than `b`
  */
 
- 
+ function isLessThan(a,b){
+     if (a < b){
+         return true;
+     }else{
+         return false;
+     }
+ }
+
+ console.log(isLessThan(4, 5));
 
 /**
  * Returns true if `a` and `b` are equal.
