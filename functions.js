@@ -257,7 +257,7 @@ function letterGrade(score, total){
         return "F";
     }
 }
-console.log(letterGrade(79, 100));
+console.log(letterGrade(69, 100));
 
 /**
  * Checks if a `restaurant` object has a `reviews` property.
@@ -267,7 +267,13 @@ console.log(letterGrade(79, 100));
  * @return {object} restaurant
  */
 
- 
+//  function incrementReviews(restaurant){
+//     if (typeof(restaurant.review) !== "undefined"){
+//     restaurant.reviews =+ 1;
+//  }else{
+//     restaurant.reviews = 1;
+//  }
+
 
 /**
  * Joins two strings with a space.
@@ -275,6 +281,11 @@ console.log(letterGrade(79, 100));
  * @param {string} word2
  * @return {string} joined the words joined with a space
  */
+
+function combine(word1, word2){
+    return word1 + " " + word2;
+}
+console.log(combine("alpha", "beta"));
 
 
 /**
@@ -285,3 +296,11 @@ console.log(letterGrade(79, 100));
  * @return {object} circle
  */
 
+function createCircle(radius){
+    var circumference = (Math.PI * radius * 2);
+    return circumference;
+    // var area = (Math.PI * radius * radius);
+    // console.log(area);
+    // return area;
+}
+console.log(createCircle(3));
