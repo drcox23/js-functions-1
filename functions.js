@@ -194,6 +194,11 @@ console.log(minimum(7, 20));
  * @return {number} the largest number
  */
 
+function maximum(x, y){
+    return Math.max(x, y);
+}
+
+console.log(maximum(1, 80));
 
 /**
  * Returns true if `n` is even.
@@ -201,6 +206,15 @@ console.log(minimum(7, 20));
  * @return {boolean} the number is even
  */
 
+ function isEven(n){
+     if (n%2 === 0){
+         return true;
+     }else{
+         return false;
+     }
+ }
+
+ console.log(isEven(3));
 
 /**
  * Returns true if `n` is odd.
@@ -208,6 +222,14 @@ console.log(minimum(7, 20));
  * @return {boolean} the number is odd
  */
 
+function isOdd(n){
+    if (n%2 === 1){
+        return true;
+    }else{
+        return false;
+    }
+}
+console.log(isOdd(3));
 
 /**
  * Returns a letter grade.
@@ -221,6 +243,21 @@ console.log(minimum(7, 20));
  * @return {string} the score represented as a letter grade
  */
 
+function letterGrade(score, total){
+    var grade = (score/total);
+    if (grade >= .90){
+        return "A";
+    }else if (grade >= .8){
+        return "B";   
+    }else if (grade >= .7){
+        return "C";
+    }else if (grade >= .6){
+        return "D";
+    }else if (grade >= 0){
+        return "F";
+    }
+}
+console.log(letterGrade(79, 100));
 
 /**
  * Checks if a `restaurant` object has a `reviews` property.
@@ -230,6 +267,7 @@ console.log(minimum(7, 20));
  * @return {object} restaurant
  */
 
+ 
 
 /**
  * Joins two strings with a space.
