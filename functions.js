@@ -296,11 +296,14 @@ console.log(combine("alpha", "beta"));
  * @return {object} circle
  */
 
+
 function createCircle(radius){
-    var circumference = (Math.PI * radius * 2);
-    return circumference;
-    // var area = (Math.PI * radius * radius);
-    // console.log(area);
-    // return area;
+    var area = (Math.PI * (radius * radius));
+    return area    
 }
+function createCircumference(radius){
+    var circumference = (2 * Math.PI * radius);
+    return circumference;
+    }
 console.log(createCircle(3));
+console.log(createCircumference(3));
